@@ -6,10 +6,10 @@ require 'gist/embed/rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "gist-embed-rails"
   spec.version       = Gist::Embed::Rails::VERSION
-  spec.authors       = ["Ponomarev Nikolay"]
+  spec.authors       = ["Ponomarev Nikolay", "Blair Vanderhoof"]
   spec.email         = ["itsnikolay@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Gist embeded for RubyOnRails}
+  spec.description   = %q{Gist embeded for RubyOnRails}
   spec.homepage      = ""
   spec.license       = "MIT"
 

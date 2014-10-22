@@ -21,7 +21,7 @@ Or install it yourself as:
 Add to `application.js`
 ```javascript
 //= require jquery
-//= require gist-embed.js
+//= require gist-embed
 ```
 
 Add in html template:
