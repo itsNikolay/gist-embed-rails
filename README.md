@@ -1,6 +1,6 @@
-# Gist::Embed::Rails
+# gist-embed for Rails
 
-[gist-embed](https://github.com/blairvanderhoof/gist-embed] for Rails)
+[gist-embed](https://github.com/blairvanderhoof/gist-embed) for Rails
 
 ## Installation
 
@@ -24,7 +24,7 @@ Add to `application.js`
 //= require gist-embed.js
 ```
 
-Then add in html template:
+Add in html template:
 ```html
 <code data-gist-id="<gist-id>"></code>
 ```
@@ -38,7 +38,7 @@ Compatable with [jquery.turbolinks](https://github.com/kossnocorp/jquery.turboli
 
 ## Contributing
 
-To refresh gem, just run:
+To refresh gem, run:
 ```shell
 $ rake upload
 ```
