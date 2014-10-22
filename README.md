@@ -1,5 +1,7 @@
 # gist-embed.js for Rails
 
+[![Gem Version](https://badge.fury.io/rb/gist-embed-rails.svg)](http://badge.fury.io/rb/gist-embed-rails)
+
 [gist-embed.js](https://github.com/blairvanderhoof/gist-embed) for Rails
 
 ## Installation
