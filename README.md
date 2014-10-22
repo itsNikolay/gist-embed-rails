@@ -1,6 +1,6 @@
-# gist-embed for Rails
+# gist-embed.js for Rails
 
-[gist-embed](https://github.com/blairvanderhoof/gist-embed) for Rails
+[gist-embed.js](https://github.com/blairvanderhoof/gist-embed) for Rails
 
 ## Installation
 
