@@ -42,5 +42,5 @@ Compatable with [jquery.turbolinks](https://github.com/kossnocorp/jquery.turboli
 
 To refresh gem, run:
 ```shell
-$ rake upload
+$ rake gist_embed:upload
 ```

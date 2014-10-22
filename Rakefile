@@ -12,17 +12,19 @@ require 'bundler'
 require 'rake'
 
 desc 'Upload lib files from remote repo'
-task :upload do
-  js_filename = "gist-embed.js"
-  js_url = "https://raw.githubusercontent.com/blairvanderhoof/gist-embed/master/#{js_filename}"
-  js_path = "vendor/assets/javascripts/#{js_filename}"
+namespace :gist_embed do
+  task :upload do
+    js_filename = "gist-embed.js"
+    js_url = "https://raw.githubusercontent.com/blairvanderhoof/gist-embed/master/#{js_filename}"
+    js_path = "vendor/assets/javascripts/#{js_filename}"
 
-  response = Net::HTTP.get( URI(js_url) )
-  if File.write(js_path, response)
-    puts %Q{
+    response = Net::HTTP.get( URI(js_url) )
+    if File.write(js_path, response)
+      puts %Q{
 -->> #{js_url}
 was succesfully uploaded to:
 -->> #{js_path}
 }
+    end
   end
 end
