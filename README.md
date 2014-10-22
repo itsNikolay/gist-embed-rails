@@ -1,6 +1,6 @@
 # Gist::Embed::Rails
 
-(gist-embed)[https://github.com/blairvanderhoof/gist-embed] for Rails.
+[gist-embed](https://github.com/blairvanderhoof/gist-embed] for Rails)
 
 ## Installation
 
@@ -31,10 +31,10 @@ Then add in html template:
 
 ## Usage
 
-Variants of usage: (http://blairvanderhoof.com)[http://blairvanderhoof.com/gist-embed/]
+Variants of usage: [http://blairvanderhoof.com](http://blairvanderhoof.com/gist-embed/)
 
 ## Turbolinks
-Compatable with (jquery.turbolinks)[https://github.com/kossnocorp/jquery.turbolinks]
+Compatable with [jquery.turbolinks](https://github.com/kossnocorp/jquery.turbolinks)
 
 ## Contributing
 
